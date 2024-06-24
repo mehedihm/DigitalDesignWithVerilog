@@ -1,5 +1,7 @@
 // Code your design here
 // Design a 4 bit ripple carry adder
+`timescale 1ns / 1ps
+
 module RippleAdd(A, B, Cin, Sum, Cout);
   input wire [3:0]A, B;
   input wire Cin;
