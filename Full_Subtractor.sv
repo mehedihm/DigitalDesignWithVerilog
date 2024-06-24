@@ -1,4 +1,6 @@
  // Code your design here
+`timescale 1ns / 1ps
+
 module Full_Sub(A,B,Bin,Diff,Bout);
   input A,B,Bin;
   output reg Diff,Bout; // Output is a reg in behavioral level
