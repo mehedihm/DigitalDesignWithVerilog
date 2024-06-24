@@ -1,4 +1,6 @@
  // Code your design here
+`timescale 1ns / 1ps
+
 module Full_Adder(A,B,Cin,Sum,Cout);
   input A,B,Cin;
   output reg Sum,Cout; // Output is a reg in behavioral level
