@@ -33,40 +33,48 @@ module testbench;
     // Test Case 3
     A_tb = 4'b0001;
     B_tb = 4'b0000;
+    Cin_tb = 1'b0;
     #5;
     
     // Test Case 4
     A_tb = 4'b0011;
     B_tb = 4'b0101;
+    Cin_tb = 1'b1;
     #5;
     
     // Test Case 5
     A_tb = 4'b0100;
     B_tb = 4'b0011;
+    Cin_tb = 1'b0;
     #5;
     
     // Test Case 6
     A_tb = 4'b1010;
     B_tb = 4'b0010;
+    Cin_tb = 1'b0;
     #5;
     
     // Test Case 7
     A_tb = 4'b1011;
     B_tb = 4'b1000;
+    Cin_tb = 1'b1;
     #5;
     
     // Test Case 8
     A_tb = 4'b1100;
     B_tb = 4'b0111;
+    Cin_tb = 1'b0;
     #5;
     
     // Test Case 9
     A_tb = 4'b0111;
     B_tb = 4'b1000;
+    Cin_tb = 1'b1;
     #5;
-    // Test Case 3
+    // Test Case 10
     A_tb = 4'b1111;
     B_tb = 4'b1111;
+    Cin_tb = 1'b0;
     #5;
     
   end
